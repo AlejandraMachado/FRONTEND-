@@ -1,0 +1,129 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV PERSONAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.peakpx.com/es/hd-wallpaper-desktop-otriz">
+
+</head>
+<body>
+    <header>
+    <img class="perfil" src="img/aleja.jfif" alt="Aleja">
+    <br>
+    <a class="mi" href="./sobremi.html"target=self>sobre mi</a>
+    <br>
+    <h1>CURRICULUM VITAE DE ALEJANDRA MACHADO</h1>
+    <br>
+    </header>
+    
+    <br>
+    <br>
+    <section>
+        <h2>
+            DATOS PESONALES
+        </h2>
+        <ul>
+            <li>Nombre completo:Alejandra Machado Martinez</li>
+            <li>Fecha de nacimiento:08/10/1996</li>
+            <li>Lugar de nacimiento:Soacha</li>
+        </ul>
+    </section>
+    <section>
+        <h2>FORMACION ACADEMICA</h2>
+<ul type="none">
+    <li class="estilo">
+        <strong>2022-Actualidad</strong>
+        Politecnico Gran colombiano
+        <br>
+        Administracion de Empresas
+    </li>
+    <li class="estilo">
+        <strong>2019-2021</strong>
+        El Servicio Nacional de Aprendizaje SENA
+        <br>
+        Tecnologo Gestion del Talento Humano
+    </li>
+    <li class="estilo">
+        <strong>2015-2016</strong>
+        Escuela de salud Teresa de Calcuta
+        <br>
+        Tecnico Auxiliar en Enfermeria
+    </li>
+    <li class="estilo">
+        <strong>2003-2014</strong>
+        Institucion Educativa Manuela Beltran
+        <br>
+        Bachiller Académico
+    </li>
+</ul>
+    </section>
+    <Section>
+        <h2>EXPERIENCIA LABORAL</h2>
+<ul type="none">
+    <li class="estilo">
+            <strong>2016-2018</strong>
+            Ips Emmanuel
+            <br>
+            Aux Enfermeria
+        </li>
+    <li class="estilo">
+            <strong>2020-Actualidad</strong>
+            Valid Sucursal Colombia
+            <br>
+            Administrativa
+        </li>
+    </ul>
+    </Section>
+</body>
+<br>
+<br>
+<footer>
+2104 Alejandra
+    <img src="img/ico_instagram.png" alt="ico_instagram">
+    <img src="img/ico_linkedin.png" alt="ico_linkedin">
+</footer>
+</html>
+
+CSS
+
+header{
+    background-image: url(https://i.pinimg.com/originals/b0/eb/62/b0eb62257b5dbd71fbefc8235a3723e7.jpg);
+    background-color: #f2d8f1;
+    text-align: center;
+    background-size: cover;
+    color: aliceblue;
+    }
+.perfil{
+    margin: auto;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 80px;
+}
+h2{
+background-color: #f2d8f1;
+}
+footer{
+    background-color: #d98fd6;
+    text-align: center;
+    font-size: 25px;
+}
+.mi{
+    color: #d943d3;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.estilo {
+    list-style: none;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 7px;
+}
+ul{
+    margin:10px 20px; 
+    }

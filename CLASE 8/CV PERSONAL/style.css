@@ -1,0 +1,37 @@
+header{
+    background-image: url(https://i.pinimg.com/originals/b0/eb/62/b0eb62257b5dbd71fbefc8235a3723e7.jpg);
+    background-color: #f2d8f1;
+    text-align: center;
+    background-size: cover;
+    color: aliceblue;
+    }
+.perfil{
+    margin: auto;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 80px;
+}
+h2{
+background-color: #f2d8f1;
+}
+footer{
+    background-color: #d98fd6;
+    text-align: center;
+    font-size: 25px;
+}
+.mi{
+    color: #d943d3;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.estilo {
+    list-style: none;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 7px;
+}
+ul{
+    margin:10px 20px;
+    
+    }

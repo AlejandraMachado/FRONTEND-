@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      Grandes ofertas en comedores  
+    </header>
+    <section>
+    <ul>
+        <li>Español</li>
+        <li>$ARG</li>
+    </ul>
+    <img src="img/Cat.png" alt="gato">
+    <ul>
+        <li><img src="img/Huella.png" alt="Categorias">Categorias</li>
+        <li><img src="img/Huella.png" alt="Categorias">pets</li>
+        <li><img src="img/Huella.png" alt="Categorias">Nosotros</li>
+        <li><img src="img/Huella.png" alt="Categorias">Contactanos</li>
+    </ul>
+    <img src="img/Img.png" alt="imggrande">
+    <br>
+    <h2>¡Es un placer tenerte aquí! </h2>
+    <h3>¡Comederos en descuento!</h3>
+    <a href="COMEDEROS"></a>
+</section>
+<section>
+<img src="img/Huella grande.png" alt="huella2">
+<h1>productos Destacados</h1>
+<nav>comedores-Accesorios-Comidas</nav>
+<img src="img/churrasquito.png" alt="churrasquito">
+<h3>Juguete Churrasquito</h3>
+<h3>$150</h3>
+<img src="img/comedero.png" alt="comedero">
+<h3>comedero para perro</h3>
+<h3>$250</h3>
+<img src="img/Huesito.png" alt="Huesito">
+<h3>Juguete Huesito</h3>
+<h3>$650</h3>
+</section>
+<footer>
+<h2>Contactanos</h2>
+<ul type="none">
+    <li>Nombre y Apellido</li>
+    <li>Ingresa tu correo electronico</li>
+    <li>Telefono</li>
+</ul>
+    <a href="url">Resetear</a>
+    <a href="url">Enviar</a>
+</footer>
+<footer>
+<img src="img/Footer.png" alt="footer">
+</footer>
+</body>
+</html>

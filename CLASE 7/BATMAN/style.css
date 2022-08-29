@@ -1,0 +1,20 @@
+.logo{
+    width: 100px;
+    height: 146.37px;
+    left: 670px;
+    top: 20.91px;
+}
+
+header{
+    text-align: center;
+    display: block;
+}
+h1,h2{
+background-color:#C4C4C4;
+color:#005677;
+}
+footer{
+    background-color:#005677;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,166 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BATMAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/heart?s=solid">
+</head>
+<body>
+    <header>
+        <div class="descuento">
+           <p>Descuento 20%</p>
+        </div>
+        <h1>Heroes</h1> 
+        <main>
+    <section>
+
+<article>
+    <div class="batman">
+        <!--icono heart-->
+        <i class="fa-solid fa-heart"></i>
+       <img class="corazon"  src="corazon.png" alt="">
+    </div>
+<img src="batman.png" alt="circular">
+<h2>BATMAN</h2>
+<P>Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing
+</P>
+<button>Ver mas</button>
+</article>
+</section>
+<section>
+    <article>
+            <div class="HQQ">
+                <!--icono heart-->
+                <i class="fa-solid fa-heart"></i>
+                <img class="corazon"  src="corazon.png" alt="">
+            </div>
+ <img src="HQ.png" alt="circular">
+ <h2>HQ</h2>
+ <P>La creación de Harley Quinn fue una idea de último minuto propuesta por el escritor estadounidense Paul Dini para modificar una escena del vigésimo-segundo episodio de Batman: la serie animada
+</P>
+<button>Ver mas</button>
+     </article>
+</section>
+<section>
+    <article>
+            <div class="batman">
+                <!--icono heart-->
+                <i class="fa-solid fa-heart"></i>
+                <img class="corazon"  src="corazon.png" alt="">
+            </div>
+<img src="batman.png" alt="circular">
+<h2>BATAMN</h2>
+<P>Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing
+</P>
+<button>Ver mas</button>
+    </article>
+</section>
+</main>
+    <footer>
+<P class="pie">Todos los derechos resevados a FRONT END 1</P>
+    </footer>
+
+    </header>
+</body>
+</html>
+
+
+CSS
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.descuento{
+    background-color: #1cd1b0;
+    padding: 2px 0px 2px 27px;
+}
+h1{
+    background-color: #00669f;
+    padding: 10px 0px 10px 28px;
+}
+section{
+    display: inline-block;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2%;
+    
+}
+section article{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 80px 0px;
+background-color: #f3f3f3;
+border-radius: 5px;
+width: 300px;
+height: 500px;
+position: relative;
+text-align: center;
+top: 2%;
+}
+section article div{
+width: 300px;
+height: 195px;
+background-image: url('imgbatman.png');
+background-size: cover;
+padding: 15px;
+}
+.HQQ{
+    width: 300px;
+    height: 195px;
+    background-image: url('imgHQ.png');
+    background-size: cover;
+    padding: 15px;
+    } 
+section article img{
+    border-radius: 50%;
+    position: absolute;
+    top: 130px;
+}
+section article h2{
+    margin: 70px 70px 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+section{
+    text-decoration: dashed;
+}
+section article button{
+    position: relative;
+    top: 7px;
+    padding:5px;
+    border:#00669F solid 5px;
+    width: 85px;
+    display:block;
+    margin: 20px; 
+    background-color:#00669F;
+}
+.corazon{
+    color: red;
+    position: absolute;
+    left: 5%;
+    right: 0%;
+    top: 6.25%;
+    bottom: 6.25%;
+}
+.pie{
+    background-color: #00669F;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+main{
+    text-align: center;
+}
+
+  
+
+
